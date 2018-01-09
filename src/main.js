@@ -43,12 +43,12 @@ router.beforeEach((to, from, next) => {
 });
 */
 
-router.afterEach((to, from) => {
+/*router.afterEach((to, from) => {
     console.log('<after-each>');
     console.log('From: ', from);
     console.log('To: ', to);
     console.log('</after-each>');
-});
+});*/
 
 /* eslint-disable no-new */
 new Vue({
